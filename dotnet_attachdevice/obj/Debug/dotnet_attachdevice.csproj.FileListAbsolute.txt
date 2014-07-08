@@ -1,0 +1,2 @@
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\bin\Debug\dotnet_attachdevice.exe.config
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\obj\Debug\dotnet_attachdevice.csprojResolveAssemblyReference.cache
