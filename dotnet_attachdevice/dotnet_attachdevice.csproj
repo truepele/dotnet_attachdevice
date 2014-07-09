@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NvtlApiWrapper">
-      <HintPath>..\..\NvtlApiWrapper\Debug\NvtlApiWrapper.dll</HintPath>
+    <Reference Include="NvtlApiWrapper, Version=1.0.5303.28745, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\NvtlApiWrapper\Release\NvtlApiWrapper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

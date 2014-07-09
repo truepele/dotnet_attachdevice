@@ -1,0 +1,8 @@
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\bin\Release\dotnet_attachdevice.exe.config
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\bin\Release\dotnet_attachdevice.exe
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\bin\Release\dotnet_attachdevice.pdb
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\bin\Release\NvtlApiWrapper.dll
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\bin\Release\NvtlApiWrapper.pdb
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\obj\Release\dotnet_attachdevice.csprojResolveAssemblyReference.cache
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\obj\Release\dotnet_attachdevice.exe
+C:\Projects\pele\dotnet_attachdevice\dotnet_attachdevice\obj\Release\dotnet_attachdevice.pdb
