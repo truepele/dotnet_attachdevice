@@ -22,7 +22,7 @@ namespace dotnet_attachdevice
             {
                 Console.WriteLine("Api initialized.");
                 var devices = api.GetAvailableDevices();
-                api.DeviceDataReceived += ApiOnDeviceDataReceived;
+                //api.DeviceDataReceived += ApiOnDeviceDataReceived;
                 if (devices != null)
                 {
                     Console.WriteLine("Found {0} devices", devices.Length);
@@ -44,14 +44,23 @@ namespace dotnet_attachdevice
                 Console.WriteLine("Exception: {0}", e.ToString());
             }
 
-
-            Console.WriteLine("Press enter key...");
-            Console.ReadLine();
-            api.DeviceDataReceived -= ApiOnDeviceDataReceived;
+           
+                Console.WriteLine("Press enter key...");
+                Console.ReadLine();
+                //api.DeviceDataReceived -= ApiOnDeviceDataReceived;
+                Console.WriteLine("IsOK: " + api.IsOK());
+                Console.WriteLine("SignalStrenght: " + api.getSignalStrenght());
+                Console.WriteLine("AttachedDevicesCount: " + api.getAttachedDevicesCount());
+                Console.WriteLine("DeviceError: " + api.getDeviceError());
 
             try
             {
                 api.DetachDevice();
+                Console.ReadLine();
+                Console.WriteLine("IsOK: " + api.IsOK());
+                Console.WriteLine("SignalStrenght: " + api.getSignalStrenght());
+                Console.WriteLine("AttachedDevicesCount: " + api.getAttachedDevicesCount());
+                Console.WriteLine("DeviceError: " + api.getDeviceError());
             }
             finally
             {
