@@ -50,7 +50,7 @@ namespace dotnet_attachdevice
                 //api.DeviceDataReceived -= ApiOnDeviceDataReceived;
                 Console.WriteLine("IsOK: " + api.IsOK());
                 Console.WriteLine("SignalStrenght: " + api.getSignalStrenght());
-                Console.WriteLine("AttachedDevicesCount: " + api.getAttachedDevicesCount());
+                Console.WriteLine("IsDeviceAttached: " + api.getIsDeviceAttached());
                 Console.WriteLine("DeviceError: " + api.getDeviceError());
 
             try
@@ -59,7 +59,7 @@ namespace dotnet_attachdevice
                 Console.ReadLine();
                 Console.WriteLine("IsOK: " + api.IsOK());
                 Console.WriteLine("SignalStrenght: " + api.getSignalStrenght());
-                Console.WriteLine("AttachedDevicesCount: " + api.getAttachedDevicesCount());
+                Console.WriteLine("IsDeviceAttached: " + api.getIsDeviceAttached());
                 Console.WriteLine("DeviceError: " + api.getDeviceError());
             }
             finally
