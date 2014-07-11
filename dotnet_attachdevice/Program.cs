@@ -48,7 +48,7 @@ namespace dotnet_attachdevice
                 Console.WriteLine("Press enter key...");
                 Console.ReadLine();
                 //api.DeviceDataReceived -= ApiOnDeviceDataReceived;
-                Console.WriteLine("IsOK: " + api.IsOK());
+                Console.WriteLine("IsOK: " + api.IsDeviceOK());
                 Console.WriteLine("SignalStrenght: " + api.getSignalStrenght());
                 Console.WriteLine("IsDeviceAttached: " + api.getIsDeviceAttached());
                 Console.WriteLine("DeviceError: " + api.getDeviceError());
@@ -57,7 +57,7 @@ namespace dotnet_attachdevice
             {
                 api.DetachDevice();
                 Console.ReadLine();
-                Console.WriteLine("IsOK: " + api.IsOK());
+                Console.WriteLine("IsOK: " + api.IsDeviceOK());
                 Console.WriteLine("SignalStrenght: " + api.getSignalStrenght());
                 Console.WriteLine("IsDeviceAttached: " + api.getIsDeviceAttached());
                 Console.WriteLine("DeviceError: " + api.getDeviceError());
